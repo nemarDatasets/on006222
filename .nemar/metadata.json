@@ -1,46 +1,15 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "MultisensoryFlickerHealthyYoungAdults_AllSubjectsRawData",
+  "description": "This dataset comprises scalp electroencephalography (EEG) recordings from healthy young adults exposed to audiovisual flicker stimulation at 40 Hz, control (no flicker), or randomized flicker conditions during a one-hour psychomotor vigilance task. The study investigates the effects of multisensory flicker on neural activity and cognitive performance, providing raw EEG data suitable for analysis of frequency-domain responses and task-related brain dynamics.",
+  "methods_description": "Scalp EEG activity was recorded from healthy adults during one-hour sessions of either 40 Hz audiovisual flicker stimulation, no flicker control condition, or randomized flicker as sham stimulation. Subjects performed a psychomotor vigilance task throughout the recording session.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Matthew Attokaren": {},
     "Annabelle Singer": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds006222.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on006222",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on006222",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset contains scalp EEG recordings from healthy young adults (age range not specified) exposed to audiovisual flicker stimulation at 40 Hz, control (no flicker), or randomized flicker conditions during a one-hour psychomotor vigilance task. The study investigates neural responses to multisensory flicker stimulation and its effects on vigilance performance.",
-  "methods_description": "Scalp EEG activity was recorded during one-hour sessions of either 40 Hz audiovisual flicker, no flicker control, or randomized flicker sham stimulation while subjects performed a psychomotor vigilance task.",
   "keywords": [
     {
       "term": "EEG"
@@ -52,17 +21,46 @@
       "term": "flicker"
     },
     {
-      "term": "vigilance"
-    },
-    {
-      "term": "multisensory integration"
+      "term": "psychomotor vigilance task"
     },
     {
       "term": "healthy adults"
     },
     {
-      "term": "psychomotor vigilance task"
+      "term": "40 Hz frequency"
     }
   ],
-  "source_hash": "571b6447fdbfb242d07a3c748a99380370add75c1f4e132660fb1c5e08a896a5"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on006222",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006222",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006222.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "15.8 GB (141 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "def4ad8d8f9e9d8cccb242e0e2f7cc578fb6463154b8bf4b17b115f2af6ed450"
 }
