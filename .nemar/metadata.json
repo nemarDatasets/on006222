@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MultisensoryFlickerHealthyYoungAdults_AllSubjectsRawData",
-  "description": "This dataset comprises scalp electroencephalography (EEG) recordings from healthy young adults exposed to audiovisual flicker stimulation at 40 Hz, control (no flicker), or randomized flicker conditions during a one-hour psychomotor vigilance task. The study investigates the effects of multisensory flicker on neural activity and cognitive performance, providing raw EEG data suitable for analysis of frequency-domain responses and task-related brain dynamics.",
-  "methods_description": "Scalp EEG activity was recorded from healthy adults during one-hour sessions of either 40 Hz audiovisual flicker stimulation, no flicker control condition, or randomized flicker as sham stimulation. Subjects performed a psychomotor vigilance task throughout the recording session.",
+  "description": "This dataset contains scalp EEG recordings from healthy young adults exposed to one hour of 40 Hz audiovisual flicker stimulation, no-flicker control, or randomized sham flicker, while performing a psychomotor vigilance task. The dataset aims to investigate the neural effects of multisensory gamma-frequency flicker stimulation in humans.",
+  "methods_description": "Scalp EEG activity was recorded from healthy adults during one hour of either 40 Hz audiovisual flicker, no flicker (control), or randomized flicker (sham) stimulation, while subjects performed a psychomotor vigilance task.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,19 +15,19 @@
       "term": "EEG"
     },
     {
-      "term": "audiovisual stimulation"
+      "term": "sensory flicker stimulation"
     },
     {
-      "term": "flicker"
+      "term": "gamma oscillations"
     },
     {
       "term": "psychomotor vigilance task"
     },
     {
-      "term": "healthy adults"
+      "term": "audiovisual stimulation"
     },
     {
-      "term": "40 Hz frequency"
+      "term": "healthy adults"
     }
   ],
   "related_identifiers": [
