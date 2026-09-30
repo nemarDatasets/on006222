@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MultisensoryFlickerHealthyYoungAdults_AllSubjectsRawData",
-  "description": "This dataset contains scalp EEG recordings from healthy young adults exposed to one hour of 40 Hz audiovisual flicker stimulation, no-flicker control, or randomized sham flicker, while performing a psychomotor vigilance task. The dataset aims to investigate the neural effects of multisensory gamma-frequency flicker stimulation in humans.",
-  "methods_description": "Scalp EEG activity was recorded from healthy adults during one hour of either 40 Hz audiovisual flicker, no flicker (control), or randomized flicker (sham) stimulation, while subjects performed a psychomotor vigilance task.",
+  "description": "Scalp EEG recordings from healthy young adults during one hour of sensory stimulation. Conditions were 40 Hz audiovisual (multisensory) flicker, a no-flicker control, or randomized flicker as sham stimulation. Participants performed a psychomotor vigilance task throughout the sessions. The dataset contains raw data for all subjects.",
+  "methods_description": "Scalp EEG was recorded from healthy adults during one hour of 40 Hz audiovisual flicker, no flicker (control), or randomized flicker (sham) while subjects performed a psychomotor vigilance task.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,19 +15,16 @@
       "term": "EEG"
     },
     {
-      "term": "sensory flicker stimulation"
+      "term": "multisensory flicker"
     },
     {
-      "term": "gamma oscillations"
+      "term": "40 Hz gamma stimulation"
     },
     {
       "term": "psychomotor vigilance task"
     },
     {
-      "term": "audiovisual stimulation"
-    },
-    {
-      "term": "healthy adults"
+      "term": "healthy young adults"
     }
   ],
   "related_identifiers": [
@@ -52,7 +49,7 @@
     "eeg"
   ],
   "sizes": [
-    "15.8 GB (141 files)"
+    "14.74 GB (141 files)"
   ],
   "formats": [
     ".fdt",
